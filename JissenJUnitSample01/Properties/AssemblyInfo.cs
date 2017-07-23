@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle( "JissenJUnitSample" )]
+[assembly: AssemblyTitle( "JissenJUnitSample01" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "JissenJUnitSample" )]
+[assembly: AssemblyProduct( "JissenJUnitSample01" )]
 [assembly: AssemblyCopyright( "Copyright ©  2017" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible( false )]
 
 // このプロジェクトが COM に公開される場合、次の GUID が typelib の ID になります
-[assembly: Guid( "02571afa-9438-471f-bad4-90a7fff2f03f" )]
+[assembly: Guid( "986f83d2-be5f-4cff-bfb2-9bfe40a89949" )]
 
 // アセンブリのバージョン情報は次の 4 つの値で構成されています:
 //

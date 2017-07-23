@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{02571AFA-9438-471F-BAD4-90A7FFF2F03F}</ProjectGuid>
+    <ProjectGuid>{986F83D2-BE5F-4CFF-BFB2-9BFE40A89949}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>JissenJUnitSample</RootNamespace>
-    <AssemblyName>JissenJUnitSample</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>JissenJUnitSample01</RootNamespace>
+    <AssemblyName>JissenJUnitSample01</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scoreable.cs" />
+    <Compile Include="ScoreCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
